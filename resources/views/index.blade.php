@@ -7,6 +7,6 @@
     <title>INDEX</title>
 </head>
 <body>
-    <h1>Jouler Es El Mejor</h1>
+    <h1>Jouler Es El Mejors</h1>
 </body>
 </html>
