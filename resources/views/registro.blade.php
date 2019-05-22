@@ -11,23 +11,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-toggleable-md navbar-dark fixed-top bg-dark">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="">PlaneEn</a>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <ul class="navbar-nav flex-row w-100">
-                    <div class="mr-auto"></div>
-                    <li class="nav-item px-2 active item1">
-                        <a class="nav-link" href="index">Inicio</a>
-                    </li>
-                    <li class="nav-item px-2 item2">
-                        <a class="nav-link" href="registro">Registro</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+
     </header>
     <style>
         body {
@@ -71,9 +55,25 @@
         <div class="row justify-content-center align-items-center h-100">
 
             <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3">
-
+                <nav class="navbar navbar-toggleable-md navbar-dark fixed-top bg-dark">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="">PlaneEn</a>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                        <ul class="navbar-nav flex-row w-100">
+                            <div class="mr-auto"></div>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="index">Inicio</a>
+                            </li>
+                            <li class="nav-item px-2 active">
+                                <a class="nav-link" href="registro">Registro</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
                 <div class="row justify-content-center align-items-center">
-                    <h1 class="text-info">Inicia Sesión</h1>
+                    <h1 class="text-info">Registrate</h1>
                 </div>
                 <hr />
                 <form class="was-validation" validate>
